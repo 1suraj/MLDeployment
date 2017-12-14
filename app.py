@@ -51,7 +51,7 @@ def make_predict():
 def hello_world():
     return 'Deployment Successful!!!!!'
 
-
+'''
 @app.route('/LiveSentiment', methods=['GET','POST'])
 def contact():
     if request.method == 'POST':
@@ -68,7 +68,7 @@ def contact():
     elif request.method == 'GET':
         return render_template('Suraj.html')
 
-
+'''
 
 
 if __name__ == '__main__':
