@@ -3,7 +3,7 @@
 
 import numpy as np
 from flask import Flask, abort, jsonify, request,render_template
-from textblob import textBlob
+from textblob import TextBlob
 from textblob.sentiments import NaiveBayesAnalyzer
 #from flask_cors import cross_origin
 #from sklearn.externals import joblib
@@ -51,7 +51,7 @@ def make_predict():
 def hello_world():
     return 'Deployment Successful!!!!!'
 
-'''
+
 @app.route('/LiveSentiment', methods=['GET','POST'])
 def contact():
     if request.method == 'POST':
@@ -68,7 +68,7 @@ def contact():
     elif request.method == 'GET':
         return render_template('Suraj.html')
 
-'''
+
 
 
 if __name__ == '__main__':
