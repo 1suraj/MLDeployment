@@ -3,7 +3,7 @@
 
 import numpy as np
 from flask import Flask, abort, jsonify, request,render_template
-from textblob import TextBlob
+from textblob import textBlob
 from textblob.sentiments import NaiveBayesAnalyzer
 #from flask_cors import cross_origin
 #from sklearn.externals import joblib
