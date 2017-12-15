@@ -9,6 +9,7 @@ from textblob.sentiments import NaiveBayesAnalyzer
 #from sklearn.externals import joblib
 #from json import dumps
 #Test
+$ heroku config:set NLTK_DATA='/app/nltk_data'
 import _pickle as pickle
 
 
